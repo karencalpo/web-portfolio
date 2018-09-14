@@ -1,7 +1,7 @@
 {
-  "name": "Karen's Web Portfolio",
-  "version": "3.0",
-  "description": "Personal portfolio of web work.",
+  "name": "web-portfolio",
+  "version": "3.0.0",
+  "description": "Personal portfolio of web work",
   "main": "src/index.js",
   "scripts": {
     "dev": "clear && webpack --mode development --module-bind js=babel-loader --module-bind 'css=style-loader!css-loader' --progress",
@@ -13,25 +13,27 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Augmentedjs/jobbit.git"
+    "url": "git+https://github.com/karencalpo/web-portfolio"
   },
   "keywords": [
-    "augmentedjs-next",
-    "wellness",
-    "job"
+    "portfolio",
+    "web",
+    "React",
+    "JavaScript"
   ],
   "author": "Karen Calpo <minnkc@gmail.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/Augmentedjs/jobbit/issues"
+    "url": "https://github.com/karencalpo/web-portfolio/issues"
   },
-  "homepage": "https://github.com/Augmentedjs/jobbit#readme",
+  "homepage": "https://github.com/karencalpo/web-portfolio#readme",
   "devDependencies": {
     "babel-core": "^6.26.2",
     "babel-loader": "^7.1.5",
     "babel-plugin-transform-regenerator": "^6.26.0",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
     "chai": "^4.1.2",
     "css-loader": "^0.28.11",
     "file-loader": "^1.1.11",
@@ -41,23 +43,5 @@
     "style-loader": "^0.21.0",
     "webpack": "^4.17.2",
     "webpack-cli": "^2.1.5"
-  },
-  "dependencies": {
-    "augmentedjs-next-chart": "^1.0.8",
-    "chart.js": "^2.7.2",
-    "core-utility": "^1.2.4",
-    "next-core-logger": "^2.5.3",
-    "presentation-application": "^2.5.5",
-    "presentation-components": "^2.7.1",
-    "presentation-css": "^2.0.1",
-    "presentation-decorator": "^2.5.3",
-    "presentation-form": "^2.6.1",
-    "presentation-logger": "^2.5.3",
-    "presentation-mediator": "^2.5.7",
-    "presentation-models": "^2.5.7",
-    "presentation-router": "^2.6.3",
-    "presentation-storage": "^2.5.4",
-    "presentation-table": "^2.5.5",
-    "presentation-view": "^2.5.4"
   }
 }
