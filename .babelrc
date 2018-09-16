@@ -1,21 +1,3 @@
 {
-  "presets": [
-    ["env", {
-      "targets": {
-        "browsers": ["safari 11", "firefox > 60", "not edge > 0", "ios 11", "chrome > 60", "not ie > 0", "not op_mini all"]
-      },
-      "debug": true
-    }]
-  ],
-  "plugins": [
-    ["transform-regenerator", {
-      "asyncGenerators": true,
-      "generators": true,
-      "async": true
-    }],
-    ["transform-runtime", {
-      "polyfill": false,
-      "regenerator": true
-    }]
-  ]
+  "presets": ["env", "react"]
 }
