@@ -58,13 +58,13 @@ background:#FFF;
 }
 .nav ul li a:hover
 {
-	color:#fff;
-	background:#0000ff; /* Color changed from #D45E5E */
+	color:rgba(255,255,255,.85);
+	background:#1E88E5; /* Color changed from #D45E5E */
 }
 .nav ul li.active a
 {
-	color:#fff;
-	background:#0000ff; /* Color changed from #D45E5E */
+	color:rgba(255,255,255,.85);
+	background:#1565C0; /* Color changed from #D45E5E */
 }
 /***** banner *****/
 .banner{
@@ -169,7 +169,7 @@ background:#FFF;
 
 /***** footer-top *****/
 .footer-top {
-	background:#0000FF; /* Color changed from #D45E5E */
+	background:#1565C0; /* Color changed from #D45E5E */
 	margin-top: 7%;
 	padding-bottom: 3%;
 }
@@ -186,15 +186,17 @@ background:#FFF;
 	width: 64%;
 	float:left;
 	padding-top: 2%;
+	color:rgba(255,255,255,.85);
 }
 .grid p{
-	color:#fff;
+	color:rgba(255,255,255,.85);
 	font-size: 1em;
 	line-height: 1.5em;
 	text-align: justify;
 	padding-top: 4%;
 }
 .grid1{
+	color:rgba(255,255,255,.85);
 	float:left;
 }
 .img{
@@ -247,6 +249,7 @@ background:#FFF;
 	margin-top: 6%;
 }
 .skills{
+	color:rgba(255,255,255,.85);
 	margin-top:10px;
 }
 .skills h3{
@@ -267,7 +270,7 @@ background:#FFF;
       display:inline-block;
 }
 .progress {
-	background:#282828;
+	background:rgba(0,0,0,.85);
 	height: 10px;
 	width: 85%;
 	margin-left:5%;
@@ -276,42 +279,42 @@ background:#FFF;
 
 .progress-bar1 {
 	width: 90%;
-	background: #E27878;
+	background: #EF6C00;
 	height:10px;
 	position:relative;
 }
 
 .progress-bar2 {
 	width: 90%;
-	background: #E27878;
+	background: #EF6C00;
 	height:10px;
 	position:relative;
 }
 
 .progress-bar3 {
 	width: 90%;
-	background: #E27878;
+	background: #EF6C00;
 	height:10px;
 	position:relative;
 }
 
 .progress-bar4 {
 	width: 70%;
-	background: #E27878;
+	background: #EF6C00;
 	height:10px;
 	position:relative;
 }
 
 .progress-bar5 {
 	width: 60%;
-	background: #E27878;
+	background: #EF6C00;
 	height:10px;
 	position:relative;
 }
 
 /***** footer-bottom *****/
 .footer-bottom{
-	background:#282828;
+	background:rgba(0,0,0,.85);
 	text-align: right;
 }
 .footer-bottom p{
@@ -333,7 +336,7 @@ background:#FFF;
 .portfolio-item h1 {
 	font-family: 'Fauna One', serif;
 	padding: 20px 0px;
-	color: #3333ff;
+	color: #1565C0;
 	font-size: 2.0em;
 	margin: 1% 0%;
 }

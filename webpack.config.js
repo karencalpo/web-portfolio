@@ -8,12 +8,14 @@ module.exports = {
   target: "web",
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "bundle.js"
+    filename: "bundle.js",
+    publicPath: '/'
   },
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
     compress: true,
-    port: 3000
+    port: 3000,
+    historyApiFallback: true
   },
   module: {
     rules: [
@@ -45,7 +47,8 @@ module.exports = {
   plugins: [
     new HtmlWebPackPlugin({
       template: "./src/index.html",
-      filename: "index.html"
+      filename: "index.html",
+      favicon: "./images/favicon.ico"
     })
   ]
 };
