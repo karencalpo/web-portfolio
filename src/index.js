@@ -20,3 +20,5 @@ ReactDOM.render((
       </Switch>
     </BrowserRouter>
 ), document.getElementById('root'));
+
+console.log("blah");

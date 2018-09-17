@@ -28,6 +28,12 @@
     "url": "https://github.com/karencalpo/web-portfolio/issues"
   },
   "homepage": "https://github.com/karencalpo/web-portfolio#readme",
+  "dependencies": {
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1"
+  },
   "devDependencies": {
     "babel-core": "^6.26.2",
     "babel-loader": "^7.1.5",
