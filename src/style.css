@@ -59,12 +59,12 @@ background:#FFF;
 .nav ul li a:hover
 {
 	color:rgba(255,255,255,.85);
-	background:#1E88E5; /* Color changed from #D45E5E */
+	background:#1E88E5;
 }
 .nav ul li.active a
 {
 	color:rgba(255,255,255,.85);
-	background:#1565C0; /* Color changed from #D45E5E */
+	background:#1565C0;
 }
 /***** banner *****/
 .banner{
@@ -169,7 +169,7 @@ background:#FFF;
 
 /***** footer-top *****/
 .footer-top {
-	background:#1565C0; /* Color changed from #D45E5E */
+	background:#1565C0;
 	margin-top: 7%;
 	padding-bottom: 3%;
 }
@@ -363,7 +363,7 @@ background:#FFF;
 .heading h2 {
 	font-family: 'Fauna One', serif;
 	float:left;
-	color: #3333ff; /* original value is #e8603c */
+	color: #3333ff;
 	font-size:1.4em;
 }
 /*** move top **/
@@ -379,6 +379,8 @@ background:#FFF;
 	border: none;
 	text-indent: 100%;
 	background: url(../images/top.png) no-repeat right top;
+	opacity: 0;
+	transition: all 0.5s ease-out;
 }
 #toTopHover {
 	width: 32px;
@@ -386,18 +388,15 @@ background:#FFF;
 	display: block;
 	overflow: hidden;
 	float: right;
-	opacity: 0;
-	-moz-opacity: 0;
-	filter: alpha(opacity=0);
-	-webkit-transition: all 0.5s ease-out;
-	-moz-transition: all 0.5s ease-out;
-	-ms-transition: all 0.5s ease-out;
-	-o-transition: all 0.5s ease-out;
-	transition: all 0.5s ease-out;
 }
 #toTop:active, #toTop:focus {
 	outline: none;
 }
+
+#toTop.FadeIn {
+    opacity: 1;
+}
+
 /***** Media Quries *****/
 @media only screen and (max-width: 1366px) {
 	.wrap{
@@ -614,14 +613,4 @@ background:#FFF;
 	.grid2 li{
 		width:35%;
 	}
-}
-
-.FadeInOut {
-    opacity: 0;
-    transition: opacity 2s linear;
-}
-
-.FadeOutIn {
-    opacity: 1;
-    transition: opacity 2s linear;
 }
