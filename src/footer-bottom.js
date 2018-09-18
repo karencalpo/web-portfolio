@@ -6,17 +6,22 @@ class FooterBottom extends Component {
 
   constructor(props) {
     super(props);
+    this.scrollToTop = this.scrollToTop.bind(this);
   }
 
   render() {
     return (
       <div className="footer-bottom">
         <div className="wrap">
-          <a href="#" id="toTop" onClick={scroll.scrollToTop()} ><span id="toTopHover"></span></a>
+          <a href="#" id="toTop" onClick={this.scrollToTop} ><span id="toTopHover"></span></a>
         </div>
       </div>
     );
   };
+
+  scrollToTop(e) {
+    scroll.scrollToTop();
+  }
 };
 
 export default FooterBottom;

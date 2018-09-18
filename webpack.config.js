@@ -9,13 +9,12 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
-    publicPath: '/'
+    publicPath: "/"
   },
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
     compress: true,
-    port: 3000,
-    historyApiFallback: true
+    port: 3000
   },
   module: {
     rules: [

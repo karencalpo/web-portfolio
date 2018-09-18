@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import SITES from './sites.js'
 
+const formatPath = (path) => {
+  return `#${path}`;
+};
+
 class Portfolio extends Component {
   render() {
     return (
@@ -10,14 +14,14 @@ class Portfolio extends Component {
       		<div className="section group">
             {SITES.slice(0, 4).map(({id, path, image }) => (
               <div key={id} className="grid_1_of_4 images_1_of_4">
-    		        <a href={path}><img src={image}></img></a>
+    		        <a href={formatPath(path)}><img src={image}></img></a>
               </div>
             ))}
       		</div>
           <div className="section group">
           {SITES.slice(4, 8).map(({id, path, image }) => (
             <div key={id} className="grid_1_of_4 images_1_of_4">
-             <a href={path}><img src={image}></img></a>
+             <a href={formatPath(path)}><img src={image}></img></a>
             </div>
           ))}
       		</div>

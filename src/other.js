@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import SITES from './sites.js'
 
+const formatPath = (path) => {
+  return `#${path}`;
+};
+
 class OtherWorks extends Component {
 
   constructor(props) {
@@ -19,7 +23,7 @@ class OtherWorks extends Component {
           {
             (this.randomizer()).map((items) => (
               <div key={items.id} className="grid_1_of_4 images_1_of_4">
-                <a href={items.path}><img src={items.image}></img></a>
+                <a href={formatPath(items.path)}><img src={items.image}></img></a>
               </div>
             ))}
         </div>

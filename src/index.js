@@ -4,19 +4,20 @@ import './style.css';
 import Main from './main';
 import Project from './project';
 import SITES from './sites.js';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 
 ReactDOM.render((
-    <BrowserRouter>
+    <HashRouter basename="/">
       <Switch>
         <Route exact path='/' component={Main}/>
-        {SITES.slice(0, 8).map(({id, path, image, link, title, description}) => (
+        {SITES.map(({id, path, image, link, title, description}) => (
             <Route
-              exact key={id}
+              exact
+              key={id}
               path={path}
               render={(props) => <Project {...props} id={id} image={image} link={link} title={title} description={description} />}
             />
         ))}
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
 ), document.getElementById('root'));
