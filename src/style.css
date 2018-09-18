@@ -368,7 +368,7 @@ background:#FFF;
 }
 /*** move top **/
 #toTop {
-	display: none;
+	display: inline;
 	text-decoration: none;
 	position: fixed;
 	bottom: 5px;
