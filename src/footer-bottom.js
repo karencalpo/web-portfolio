@@ -1,27 +1,17 @@
 import React, { Component } from 'react';
-import * as Scroll from 'react-scroll';
-import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import { HashLink as Link } from 'react-router-hash-link';
 
 class FooterBottom extends Component {
-
-  constructor(props) {
-    super(props);
-    this.scrollToTop = this.scrollToTop.bind(this);
-  }
-
   render() {
     return (
       <div className="footer-bottom">
         <div className="wrap">
-          <a href="#" id="toTop" onClick={this.scrollToTop} ><span id="toTopHover"></span></a>
+          <Link smooth to="#header" id="toTop"><span id="toTopHover"></span></Link>
         </div>
       </div>
     );
   };
 
-  scrollToTop(e) {
-    scroll.scrollToTop();
-  }
 };
 
 export default FooterBottom;

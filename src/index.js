@@ -10,6 +10,9 @@ ReactDOM.render((
     <HashRouter basename="/">
       <Switch>
         <Route exact path='/' component={Main}/>
+        <Route exact path='/aboutme' component={Main}/>
+        <Route exact path='/works' component={Main}/>
+        <Route exact path='/skills' component={Main}/>
         {SITES.map(({id, path, image, link, title, description}) => (
             <Route
               exact

@@ -16,11 +16,11 @@ const SITES = [
     link: 'https://www.deltadentalins.com/',
     description: `My team was responsible for the redesign of the Delta Dental Insurance enrollment site. As the sole
     front-end developer at the beginning of the project, I created new HTML components based on Atomic Design. These
-    components could be used as building blocks one on top of the other to create new components. Also, each
+    components could be used as building blocks, one on top of the other, to create new components. Also, each
     individual component can be re-skinned so that they can be set with different colors and sizes to be
-    used with different brands (such as AARP, Costco, etc). I also  worked extensively with the front-end
+    used with different brands (such as AARP, Costco, etc). I also worked extensively with the front-end
     JavaScript code that is used for the interactivity of the site.<br /><br /> NOTE: To access the enrollment site,
-    click on the purple Get a Quote button located on the left-hand side of the site.<br />`
+    click on the purple "Get a Quote" button located on the left-hand side of the site.<br />`
   },
   {
     id: 1,
@@ -28,12 +28,12 @@ const SITES = [
     title: 'Delta Dental Insurance - AARP',
     image: image2,
     link: 'https://www.deltadentalins.com/aarp/',
-    description: `One of the clients for Delta Dental is AARP and they needed a site where their members can shop and
+    description: `One of Delta Dental's clients is AARP and they needed a site where their members can shop and
     choose a dental plan that best suits their needs.<br /><br />As one of the front-end developers on the team, I
     created more new HTML components based on Atomic Design from previous components I created. Just like
     the previous buying site that we made, the design was based off a mockup that our designers created.
     I worked extensively with them to turn their designs into HTML and CSS code. I also worked extensively
-    with and created the front-end JavaScript code that is used for the interactivity of the site.<br /><br />NOTE: To
+    with and created the front-end JavaScript code that is used for the interactivity in the site.<br /><br />NOTE: To
     access the AARP buying site, fill out all necessary information in the upper right-hand corner of the site.
     Click the red "View Quote" page when finished.`
   },
@@ -48,13 +48,13 @@ const SITES = [
     based on preference and individual tastes.<br /><br />Our team made heavy use of HTML5, CSS3, and JavaScript as well as
     preprocessors such as LESS. Front-end developers such as myself and my team lead modified and created the new HTML5, CSS3,
     JavaScript content according to marketing specs and back-end developers implemented our static code in Adobe Experience
-    Manager which is our preferred CMS.<br /><br />I had worked on the navigation menu, especially the anchor menu, and set scroll
+    Manager.<br /><br />I had worked on the navigation menu, especially the anchor menu, and set scroll
     values to stop at appropriate places on the page. I also worked on adding a cookie consent plugin to foreign sites that
-    implement the EU cookie law which requires businesses to give users the opportunity to turn cookies on and off. The plugin
+    implement the new EU cookie law which requires businesses to give users the opportunity to turn cookies on and off. The plugin
     I added was the Cookie Consent Plugin which I tailored to our web code at TiVo. I used the official CSS styles and
-    standard HTML code at TiVo to create a cookie consent popup that has the same look and feel as the rest of the main TiVo website.
-    The plugin can be viewed on foreign sites such as the French site here. Make sure to clear your cookies first in order
-    to see the cookie consent plugin.`
+    standard HTML code at TiVo to create a cookie consent popup that has the same look and feel as the main TiVo website.
+    The plugin can be viewed on foreign sites such as the French site <a href="https://business.tivo.com/fr/">here</a>. Make sure to
+    clear your cookies first in order to see the cookie consent plugin.`
   },
   {
     id: 3,
@@ -120,7 +120,7 @@ const SITES = [
     link: 'https://github.com/karencalpo',
     description: `This is my personal GitHub page. It contains the code for projects I have worked on in the past as
     well as the present. It also contains code solutions for algorithm problems I solved (all written in JavaScript).<br /><br />I am
-    also member of a collection of ongoing projects started by some very enterprising organizations and individuals.`
+    also a member of a collection of ongoing projects started by some very enterprising organizations and individuals.`
   }
 ];
 
