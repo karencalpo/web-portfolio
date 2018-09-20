@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import SITES from './sites.js'
+import { SITES, BANNER } from './sites.js'
 
 const formatPath = (path) => {
   return `#${path}`;
