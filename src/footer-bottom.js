@@ -7,7 +7,7 @@ class FooterBottom extends Component {
     super(props);
     this.onScroll = this.onScroll.bind(this);
     this.state = {
-      iconClass: "FadeIn"
+      iconClass: ""
     }
   }
 
@@ -25,10 +25,10 @@ class FooterBottom extends Component {
     let toTop = window.pageYOffset;
     let windowSize = window.innerHeight;
 
-    if(toTop > windowSize * .35) {
-      this.setState({ iconClass: "FadeIn" });
-    } else {
+    if(toTop < windowSize * .65) {
       this.setState({ iconClass: "" });
+    } else {
+      this.setState({ iconClass: "FadeIn" });
     }
 
   };

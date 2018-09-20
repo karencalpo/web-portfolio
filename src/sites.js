@@ -96,7 +96,7 @@ const SITES = [
     image: image6,
     link: 'https://www.nasa.gov/centers/ames/research/3D_vision_lab/index.html',
     description: `This is a website made for the scientist who created a special tool used to scan the damage done to
-    spaceshuttle tiles. The device won NASA Invention of the Year and the R&D 100 awards for 2008. The device is
+    spaceshuttle tiles. The device won NASA Invention of the Year and the R&D 100 awards. The device is
     called the Mold Impression Laser Tool (MILT) and it uses their patented high-speed, real-time 3-dimensional processing engine.
     The engine is also used with other devices such as planetary rovers and robot scanners. This is a site built using
     a proprietary Content Management System (CMS) created by NASA. Images were edited using Photoshop and the layout was created
