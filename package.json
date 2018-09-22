@@ -29,7 +29,10 @@
     "url": "https://github.com/karencalpo/web-portfolio/issues"
   },
   "homepage": "https://github.com/karencalpo/web-portfolio#readme",
-  "dependencies": {},
+  "dependencies": {
+    "react-scroll": "^1.7.10",
+    "save-dev": "^2.0.0"
+  },
   "devDependencies": {
     "babel-core": "^6.26.2",
     "babel-loader": "^7.1.5",
