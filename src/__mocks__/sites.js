@@ -1,23 +1,9 @@
-import image1 from "../images/deltadentalins.jpg";
-import image2 from "../images/delta_aarp.jpg";
-import image3 from "../images/business_tivo.jpg";
-import image4 from "../images/forward_faster.jpg";
-import image5 from "../images/fps.jpg";
-import image6 from "../images/nasa_site.jpg";
-import image7 from "../images/oanda.jpg";
-import image8 from "../images/github.jpg";
-import quote from "../images/quote.png";
-import logo from "../images/logo2.jpg";
-import line from "../images/line2.jpg";
-import location from "../images/location.png";
-import avatar from "../images/avatar.jpg";
-
 const SITES = [
   {
     id: 0,
     path: '/deltadentalins',
     title: 'Delta Dental Insurance',
-    image: image1,
+    image: '../images/deltadentalins.jpg',
     link: 'https://www.deltadentalins.com/',
     description: `My team was responsible for the redesign of the Delta Dental Insurance enrollment site. As the sole
     front-end developer at the beginning of the project, I created new HTML components based on Atomic Design. These
@@ -31,7 +17,7 @@ const SITES = [
     id: 1,
     path: '/delta_aarp',
     title: 'Delta Dental Insurance - AARP',
-    image: image2,
+    image: '../images/delta_aarp.jpg',
     link: 'https://www.deltadentalins.com/aarp/',
     description: `One of Delta Dental's clients is AARP and they needed a site where their members can shop and
     choose a dental plan that best suits their needs.<br /><br />As one of the front-end developers on the team, I
@@ -46,7 +32,7 @@ const SITES = [
     id: 2,
     path: '/business_tivo',
     title: 'TiVo Business Site',
-    image: image3,
+    image: '../images/business_tivo.jpg',
     link:'https://business.tivo.com',
     description: `This is a site that I worked on with the web team over at TiVo. It is a site that describes different
     products content providers can use to better tailor and customize selections of shows and movies for different customers
@@ -65,7 +51,7 @@ const SITES = [
     id: 3,
     path: '/forward_faster',
     title: 'TiVo Forward Faster',
-    image: image4,
+    image: '../images/forward_faster.jpg',
     link: 'https://forward.tivo.com/',
     description:`The Forward Faster site is a bit different from the other TiVo sites in the sense that the site flows
     from left to right instead of up and down. It is a site that my team lead and I inherited from a third party
@@ -82,7 +68,7 @@ const SITES = [
     id: 4,
     path: '/fps',
     title: 'First Person Shooters',
-    image: image5,
+    image: '../images/fps.jpg',
     link: 'http://fpshooters.draconicscales.com/',
     description:`This was a website I did for National Podcasting System. This was for their First Person Shooters
     podcasts which featured two guys, Will and Sandy, who gave their humorous reviews on first person shooter
@@ -98,7 +84,7 @@ const SITES = [
     id: 5,
     path: '/nasa_site',
     title: 'NASA 3D Vision Lab',
-    image: image6,
+    image: '../images/nasa_site.jpg',
     link: 'https://www.nasa.gov/centers/ames/research/3D_vision_lab/index.html',
     description: `This is a website made for the scientist who created a special tool used to scan the damage done to
     spaceshuttle tiles. The device won NASA Invention of the Year and the R&D 100 awards. The device is
@@ -111,7 +97,7 @@ const SITES = [
     id: 6,
     path: '/oanda',
     title: 'Exchange Rates API',
-    image: image7,
+    image: '../images/oanda.jpg',
     link: 'https://www.oanda.com/fx-for-business/exchange-rates-api',
     description: `The Oanda Exchange Rates API page is one of the pages I helped to maintain for Oanda. I utilized
     their Wagtail CMS (a Django content management system) to update images and verbal content as well as upload videos
@@ -121,7 +107,7 @@ const SITES = [
     id: 7,
     path: '/github',
     title: 'Karen\'s GitHub Page',
-    image: image8,
+    image: '../images/github.jpg',
     link: 'https://github.com/karencalpo',
     description: `This is my personal GitHub page. It contains the code for projects I have worked on in the past as
     well as the present. It also contains code solutions for algorithm problems I solved (all written in JavaScript).<br /><br />I am
@@ -134,14 +120,15 @@ me to where I am now. Here is a collection of web projects I have done over time
 exhaustive collection of everything I have done, it gives an idea of what I am capable of
 and what I have done in the past. Currently, I am working as a developer doing projects for
 businesses, friends, and family in different industries and areas such as healthcare, multimedia,
-government, and consumer electronics.`
+government, and consumer electronics.`;
 
 const BANNER_IMG = {
-  logo: logo,
-  quote: quote,
-  line: line,
-  location: location,
-  avatar: avatar
+  logo: "../images/logo2.jpg",
+  quote: "../images/quote.png",
+  line: "../images/line2.jpg",
+  location: "../images/location.png",
+  avatar: "../images/avatar.jpg"
 };
+
 
 export { SITES, BANNER, BANNER_IMG };
