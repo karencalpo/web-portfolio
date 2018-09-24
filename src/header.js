@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from "../images/logo2.jpg";
+import { BANNER_IMG } from "./sites";
 import { HashLink as Link } from 'react-router-hash-link';
 
 class Header extends Component {
@@ -7,7 +7,7 @@ class Header extends Component {
     return (
       <header className="header" id="header">
         <div className="logo">
-          <a href="/"><img src={logo} alt="Site Logo Image" /></a>
+          <a href="/"><img src={ BANNER_IMG.logo } alt="Site Logo Image" /></a>
         </div>
         <nav className="nav">
 				<ul>

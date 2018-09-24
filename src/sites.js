@@ -6,6 +6,9 @@ import image5 from "../images/fps.jpg";
 import image6 from "../images/nasa_site.jpg";
 import image7 from "../images/oanda.jpg";
 import image8 from "../images/github.jpg";
+import quote from "../images/quote.png";
+import logo from "../images/logo2.jpg";
+import line from "../images/line2.jpg";
 
 const SITES = [
   {
@@ -131,4 +134,10 @@ and what I have done in the past. Currently, I am working as a developer doing p
 businesses, friends, and family in different industries and areas such as healthcare, multimedia,
 government, and consumer electronics.`
 
-export { SITES, BANNER };
+const BANNER_IMG = {
+  logo: logo,
+  quote: quote,
+  line: line
+};
+
+export { SITES, BANNER, BANNER_IMG };

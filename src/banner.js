@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
-import quote from "../images/quote.png";
-import line from "../images/line2.jpg";
+import { BANNER_IMG } from "./sites";
 import { SITES, BANNER } from './sites.js'
 
 class Banner extends Component {
   render() {
     return (
       <div className="banner" id="aboutme">
-      	<img src={quote} alt=""/>
+      	<img src={ BANNER_IMG.quote } alt=""/>
       	<p>{ BANNER }</p>
-      	<img src={line} alt=""/>
+      	<img src={ BANNER_IMG.line } alt=""/>
   		</div>
     );
   };

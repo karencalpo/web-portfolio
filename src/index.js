@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './style.css';
 import Main from './main';
 import Project from './project';
-import { SITES, BANNER } from './sites.js'
+import { SITES, BANNER } from './sites'
 import { HashRouter, Route, Switch } from 'react-router-dom';
 
 ReactDOM.render((
