@@ -5,6 +5,8 @@
 
 # production
 /dist
+/test
+/__mocks__
 
 # misc
 .DS_Store

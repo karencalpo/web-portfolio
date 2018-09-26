@@ -12,9 +12,8 @@ import Adapter from 'enzyme-adapter-react-16';
 configure({ adapter: new Adapter() });
 const div = document.createElement('root');
 
-jest.mock('../src/sites.js');
-
 describe('Components render without crashing, such as', () => {
+
     it('Banner', () => {
         ReactDOM.render(<Banner />, div);
     });

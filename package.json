@@ -14,24 +14,6 @@
     "start-dev": "webpack-dev-server --config ./webpack.config.js --mode development",
     "start": "node ./service/index.js"
   },
-  "jest": {
-    "moduleFileExtensions": [
-      "js",
-      "jsx"
-    ],
-    "moduleDirectories": [
-      "node_modules"
-    ],
-    "moduleNameMapper": {
-      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
-      "\\.(css|sass)$": "<rootDir>/__mocks__/styleMock.js"
-    },
-    "transform": {
-      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileTransformer.js",
-      "^.+\\.js$": "babel-jest"
-    },
-    "automock": true
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/karencalpo/web-portfolio"
