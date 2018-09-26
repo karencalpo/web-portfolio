@@ -48,7 +48,7 @@ class FooterBottom extends Component {
   };
 
   componentWillUnmount() {
-    window.addEventListener('scroll', this.onScroll);
+    window.removeEventListener('scroll', this.onScroll);
   };
 };
 
