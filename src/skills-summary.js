@@ -16,7 +16,7 @@ class SkillsSummary extends Component {
     				<div className="clear"></div>
     			</div>
 			    <div className="clear"></div>
-  		<p>A developer skilled in creating websites/web applications. Apply technical skill set and background in software QA to deliver
+  		<p>A developer skilled in creating websites/web applications. Apply technical background in development and software QA to deliver
   		enhancements, improve usability, and discover defects. Equally adept in website maintenance, cross-browser compatibility, content updates,
   		and GUI development.</p>
 		</div>
