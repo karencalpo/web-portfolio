@@ -1,10 +1,10 @@
 import image1 from "../images/deltadentalins.jpg";
-import image2 from "../images/delta_aarp.jpg";
+import image2 from "../images/appHazard.jpg";
 import image3 from "../images/business_tivo.jpg";
 import image4 from "../images/forward_faster.jpg";
 import image5 from "../images/fps.jpg";
-import image6 from "../images/nasa_site.jpg";
-import image7 from "../images/oanda.jpg";
+import image6 from "../images/ajn.jpg";
+import image7 from "../images/jobbybit.jpg";
 import image8 from "../images/github.jpg";
 import quote from "../images/quote.png";
 import logo from "../images/logo2.jpg";
@@ -29,21 +29,6 @@ const SITES = [
   },
   {
     id: 1,
-    path: '/delta_aarp',
-    title: 'Delta Dental Insurance - AARP',
-    image: image2,
-    link: 'https://www.deltadentalins.com/aarp/',
-    description: `One of Delta Dental's clients is AARP and they needed a site where their members can shop and
-    choose a dental plan that best suits their needs.<br /><br />As one of the front-end developers on the team, I
-    created more new HTML components based on Atomic Design from previous components I created. Just like
-    the previous buying site that we made, the design was based off a mockup that our designers created.
-    I worked extensively with them to turn their designs into HTML and CSS code. I also worked extensively
-    with and created the front-end JavaScript code that is used for the interactivity in the site.<br /><br />NOTE: To
-    access the AARP buying site, fill out all necessary information in the upper right-hand corner of the site.
-    Click the red "View Quote" page when finished.`
-  },
-  {
-    id: 2,
     path: '/business_tivo',
     title: 'TiVo Business Site',
     image: image3,
@@ -62,7 +47,7 @@ const SITES = [
     clear your cookies first in order to see the cookie consent plugin.`
   },
   {
-    id: 3,
+    id: 2,
     path: '/forward_faster',
     title: 'TiVo Forward Faster',
     image: image4,
@@ -79,7 +64,39 @@ const SITES = [
     HTML and CSS code was also modularized to avoid repetitive use of styles.`
   },
   {
+    id: 5,
+    path: '/augmentedjs',
+    title: 'Augmented.js',
+    image: image6,
+    link: 'http://www.augmentedjs.com/',
+    description: `This is a JavaScript framework I am helping to build. It is on its second iteration. Unlike the first iteration, it
+    supports ES6 and better and focuses heavily on component design and ES6 modules. I have helped to build a few of the components as
+    well as used the framework in some of my projects.`
+  },
+  {
     id: 4,
+    path: '/appHazard',
+    title: 'appHazard',
+    image: image2,
+    link: 'https://apphazard.augmentedjs.com/',
+    description: `My team and I created this application for Angelhack Silicon Valley. It takes the values of properties for a given
+    address in the US and creates a risk factor based on disaster data for the area over a period of thirty years. Disaster data was gathered
+    from FEMA's APIs and property data was gathered from <a href="https://www.attomdata.com/solutions/property-data-api/">ATTOM Data Solutions APIs</a>.<br /><br />
+    I worked on the back-end side of things for this project focusing time on building out RESTful APIs and microservices in Node.js and Express.js. Front-End
+    was built in Augmented.js with help from me as well as creating a responsive design for this project.`
+  },
+  {
+    id: 5,
+    path: '/jobbybit',
+    title: 'JobbyBit',
+    image: image7,
+    link: 'https://itunes.apple.com/us/app/jobbybit/id1438027012?mt=8',
+    description: `JobbyBit is an iOS application I helped to build utilizing the Augmented.js JavaScript framework I contribute to.
+    It is an application that calculates a user\'s job satisfaction via bitcode. I worked mostly on the front-end of the components as
+    well as the logo and mascot graphic.`
+  },
+  {
+    id: 6,
     path: '/fps',
     title: 'First Person Shooters',
     image: image5,
@@ -93,29 +110,6 @@ const SITES = [
     JavaScript to create a lightbox for each active video. Since Videobox is no longer supported, I again recreated
     the whole site in WordPress and used a WordPress video plugin to display the YouTube videos on the site. Feel free
     to explore the site and blog. There is not much activity that happens in the blog, but I moderate what is written there.`
-  },
-  {
-    id: 5,
-    path: '/nasa_site',
-    title: 'NASA 3D Vision Lab',
-    image: image6,
-    link: 'https://www.nasa.gov/centers/ames/research/3D_vision_lab/index.html',
-    description: `This is a website made for the scientist who created a special tool used to scan the damage done to
-    spaceshuttle tiles. The device won NASA Invention of the Year and the R&D 100 awards. The device is
-    called the Mold Impression Laser Tool (MILT) and it uses their patented high-speed, real-time 3-dimensional processing engine.
-    The engine is also used with other devices such as planetary rovers and robot scanners. This is a site built using
-    a proprietary Content Management System (CMS) created by NASA. Images were edited using Photoshop and the layout was created
-    using a combination of HTML and CSS.`
-  },
-  {
-    id: 6,
-    path: '/oanda',
-    title: 'Exchange Rates API',
-    image: image7,
-    link: 'https://www.oanda.com/fx-for-business/exchange-rates-api',
-    description: `The Oanda Exchange Rates API page is one of the pages I helped to maintain for Oanda. I utilized
-    their Wagtail CMS (a Django content management system) to update images and verbal content as well as upload videos
-    and documents.`
   },
   {
     id: 7,

@@ -33,7 +33,7 @@ class SkillsList extends Component {
                 </li>
                  <li>
                  	<div className="clearfix">
-                      <p className="downloading">React</p><br />
+                      <p className="downloading">Node/Express</p><br />
                        <div className="progress">
                         <div className="progress-bar4"> </div>
                        </div>
