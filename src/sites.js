@@ -78,12 +78,13 @@ const SITES = [
     path: '/appHazard',
     title: 'appHazard',
     image: image2,
-    link: 'https://apphazard.augmentedjs.com/',
+    link: 'https://github.com/Augmentedjs/appHazard',
     description: `My team and I created this application for AngelHack Silicon Valley. It takes the values of properties for a given
     address in the US and creates a risk factor based on disaster data for the area over a period of thirty years. Disaster data was gathered
     from FEMA's APIs and property data was gathered from <a href="https://www.attomdata.com/solutions/property-data-api/">ATTOM Data Solutions APIs</a>.<br /><br />
     I worked on the back-end side of things for this project focusing time on building out RESTful APIs and microservices in Node.js and Express.js. Front-End
-    was built in Augmented.js with help from me as well as creating a responsive design for this project.`
+    was built in Augmented.js with help from me as well as creating a responsive design for this project.<br /><br />NOTE: The link to the original application is not available since the
+    ATTOM API key used expired shortly after the hackathon ended. Instead, code for the application is available on Github and is linked above.`
   },
   {
     id: 5,
