@@ -1,2 +1,2 @@
 # Karen's Web Portfolio
-Karen's Personal Web Portfolio
+Personal Web Portfolio written in JavaScript and React.
