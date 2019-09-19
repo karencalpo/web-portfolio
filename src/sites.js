@@ -78,13 +78,15 @@ const SITES = [
     path: '/appHazard',
     title: 'appHazard',
     image: image2,
-    link: 'https://github.com/Augmentedjs/appHazard',
+    link: 'https://apphazard.augmentedjs.com/',
     description: `My team and I created this application for AngelHack Silicon Valley. It takes the values of properties for a given
     address in the US and creates a risk factor based on disaster data for the area over a period of thirty years. Disaster data was gathered
-    from FEMA's APIs and property data was gathered from <a href="https://www.attomdata.com/solutions/property-data-api/">ATTOM Data Solutions APIs</a>.<br /><br />
-    I worked on the back-end side of things for this project focusing time on building out RESTful APIs and microservices in Node.js and Express.js. Front-End
-    was built in Augmented.js with help from me as well as creating a responsive design for this project.<br /><br />NOTE: The link to the original application is not available since the
-    ATTOM API key used expired shortly after the hackathon ended. Instead, code for the application is available on Github and is linked above.`
+    from FEMA's APIs and property data was gathered initially from <a href="https://www.attomdata.com/solutions/property-data-api/">ATTOM Data Solutions APIs</a>.<br /><br />
+    I worked on the back-end side of things for this project focusing time on building out RESTful APIs and microservices in Node.js and Express.js. The Front-End
+    was built in Augmented.js with some help from me as well as creating a responsive design for this project.<br /><br />
+    Later, we found a refactor was necessary since the free trial key we used from ATTOM expired. I refactored the back-end to make it flexible enough to use other APIs by
+    rewriting the code utlizing the strategy software design pattern. Data from Zillow API is a bit more brittle and not as robust as the ATTOM one, but still serves the purpose of
+    providing real estate data to calculate risk. We may decide to enrich the data later by including data from other real estate APIs.<br /><br />`
   },
   {
     id: 5,
