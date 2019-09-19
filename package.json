@@ -1,6 +1,6 @@
 {
   "name": "web-portfolio",
-  "version": "3.0.1",
+  "version": "3.0.8",
   "description": "Personal portfolio of web work",
   "main": "src/index.js",
   "scripts": {
